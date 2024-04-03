@@ -23,13 +23,13 @@ mongoose
     useFindAndModify: false,
     useUnifiedTopology: true,
   })
-  .then(() => console.log("DB CONNNECTION ESTABLISHED"));
+  .then(() => console.log("DB CONNNECTION ESTABLISHED 🙏🏻"));
 
 // .catch((err) => console.log(err.message));
 
 const port = process.env.PORT || 3000;
 const server = app.listen(port, () => {
-  console.log(`App is running on port ${port}`);
+  console.log(`App is running on port ${port} 🚀`);
 });
 
 process.on("unhandledRejection", (err) => {
